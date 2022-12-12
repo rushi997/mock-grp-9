@@ -34,12 +34,22 @@ public class UtilityNew
 		
 	}
 	
+	
+	
+	
+	
+	
+	
 	public static void wait(WebDriver driver,int waittime)
 	{
 		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(waittime));
 		
 		Reporter.log("waiting for "+waittime+" millis",true);
 	}
+	
+	
+	
+	
 	
 	public static void scrolling(WebDriver driver,WebElement element)
 	{
@@ -49,6 +59,8 @@ public class UtilityNew
 		
 		Reporter.log("scrolling to element "+element.getText(), true);
 	}
+	
+	
 	
 	public static  String readpropData(String key) throws EncryptedDocumentException, IOException
 	{
