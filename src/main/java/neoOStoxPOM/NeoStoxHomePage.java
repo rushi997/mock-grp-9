@@ -23,10 +23,18 @@ public class NeoStoxHomePage
 	@FindBy(xpath = "//span[text()='Logout']")private WebElement logoutButton;
 	
 	
+	
+	
+	
+	
 	public NeoStoxHomePage(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
 	}
+	
+	
+	
+	
 	
 	public void popupHandle(WebDriver driver)
 	{
@@ -46,6 +54,10 @@ public class NeoStoxHomePage
 		
 		
 	}
+	
+	
+	
+	
 	
 	public String userName(WebDriver driver)
 	{
